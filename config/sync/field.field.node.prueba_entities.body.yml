@@ -1,0 +1,23 @@
+uuid: f77fa7ae-3a8f-430e-a21a-0d74d9787ae2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.prueba_entities
+  module:
+    - text
+id: node.prueba_entities.body
+field_name: body
+entity_type: node
+bundle: prueba_entities
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

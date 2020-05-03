@@ -1,0 +1,23 @@
+uuid: eff36ea7-1d0e-44be-8b44-d163b30e41a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.imagen_entity_browser
+  module:
+    - views
+name: imagen
+label: imagen
+display: modal
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: false
+selection_display: view
+selection_display_configuration:
+  view: imagen_entity_browser
+  view_display: default
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets: {  }

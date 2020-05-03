@@ -1,0 +1,27 @@
+uuid: 78ac9dbd-aa6e-414a-8cb2-9c969bfb4a22
+langcode: en
+status: true
+dependencies: {  }
+name: video
+label: video
+display: modal
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  0700932f-05da-422b-89dc-0bf4f7052e61:
+    settings:
+      upload_location: 'public://'
+      multiple: true
+      submit_text: 'Select files'
+      extensions: 'mp4 mkv flv avc'
+    uuid: 0700932f-05da-422b-89dc-0bf4f7052e61
+    weight: 1
+    label: upload
+    id: upload

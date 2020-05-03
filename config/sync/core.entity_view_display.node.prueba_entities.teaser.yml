@@ -1,0 +1,34 @@
+uuid: 14b1c4dc-4b67-458e-93ba-5be3f48a2486
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.prueba_entities.body
+    - field.field.node.prueba_entities.field_imagen
+    - field.field.node.prueba_entities.field_video
+    - node.type.prueba_entities
+  module:
+    - text
+    - user
+id: node.prueba_entities.teaser
+targetEntityType: node
+bundle: prueba_entities
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_imagen: true
+  field_video: true

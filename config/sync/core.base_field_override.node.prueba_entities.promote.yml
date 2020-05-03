@@ -1,0 +1,22 @@
+uuid: d8b0c029-71eb-4b77-be7d-14dd2d18c0fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.prueba_entities
+id: node.prueba_entities.promote
+field_name: promote
+entity_type: node
+bundle: prueba_entities
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

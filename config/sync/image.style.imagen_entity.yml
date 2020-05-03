@@ -1,0 +1,14 @@
+uuid: eead9b64-2fdf-4166-ab5b-e8888e9f6d0d
+langcode: en
+status: true
+dependencies: {  }
+name: imagen_entity
+label: imagen-entity
+effects:
+  27e0a8bb-c6e9-4454-9bd3-16295d13f549:
+    uuid: 27e0a8bb-c6e9-4454-9bd3-16295d13f549
+    id: image_resize
+    weight: 1
+    data:
+      width: 640
+      height: 480

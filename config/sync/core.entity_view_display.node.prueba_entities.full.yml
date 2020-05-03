@@ -1,0 +1,49 @@
+uuid: 498890d8-17c6-4340-b362-038326fbc1a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.prueba_entities.body
+    - field.field.node.prueba_entities.field_imagen
+    - field.field.node.prueba_entities.field_video
+    - node.type.prueba_entities
+  module:
+    - text
+    - user
+id: node.prueba_entities.full
+targetEntityType: node
+bundle: prueba_entities
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_imagen:
+    type: entity_reference_entity_view
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_video:
+    type: entity_reference_entity_view
+    weight: 103
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
