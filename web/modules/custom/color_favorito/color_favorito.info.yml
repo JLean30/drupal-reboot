@@ -1,0 +1,5 @@
+name: "Color favorito"
+type: module
+description: "Este modulo te permite agregar un color favorito"
+core: 8.x
+package: "Custom"

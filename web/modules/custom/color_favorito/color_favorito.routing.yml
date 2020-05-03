@@ -1,0 +1,17 @@
+color_favorito.color_favorito_controller:
+    path: "/color-favorito"
+    defaults:
+        _controller: '\Drupal\color_favorito\Controller\ColorFavoritoController::index'
+        _title: "Color favorito"
+    requirements:
+        _permission: "access content"
+
+color_favorito.configuration_form:
+    path: "/admin/config/color_favorito/configuration"
+    defaults:
+        _form: '\Drupal\color_favorito\Form\ConfigurationForm'
+        _title: "Formulario de configuracion"
+    requirements:
+        _permission: "access color_favorito configuration"
+    options:
+        _admin_route: true

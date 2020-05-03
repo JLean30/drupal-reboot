@@ -1,0 +1,35 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function color_favorito_help($route_name, RouteMatchInterface $routeMatchInterface)
+{
+	switch ($route_name) {
+		case 'help.page.color_favorito':
+			return t('
+				<h3>Acerca de</h3>
+				<p>Acá puedes agregar tu color favorito</p>
+			');
+
+			break;
+	}
+}
+
+/**
+ * Implements hook_theme().
+ */
+function color_favorito_theme()
+{
+	return [
+		'color_favorito' => [
+			'variables' => [
+				'title' => '',
+				'color' => ''
+			],
+			'template' => 'color_favorito'
+		]
+	];
+}
