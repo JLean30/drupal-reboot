@@ -1,0 +1,17 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hool_help()
+ */
+
+function counrty_field_help($route_name, RouteMatchInterface $route_match){
+    switch($route_name){
+        case 'help.page.country_field':
+            return t('
+                <h3>About</h3>
+                <p>Country field</p>
+            ');
+    }
+}
