@@ -1,0 +1,39 @@
+<?php
+
+/**
+ * @file
+ * Contains cargar_css_y_js.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function cargar_css_y_js_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the cargar_css_y_js module.
+    case 'help.page.cargar_css_y_js':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Cargar Css y HSJS en nuestro modulo') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function cargar_css_y_js_theme() {
+  return [
+    'item_accordion' => [
+        'variables' => [
+            'title' => '',
+            'description' => ''
+        ],
+        "template" => 'item-accordion'
+    ]
+  ];
+}

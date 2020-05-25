@@ -1,0 +1,7 @@
+cargar_css_y_js.cargar_css_y_js_controller_index:
+  path: /cargar_css_y_js
+  defaults:
+      _controller: '\Drupal\cargar_css_y_js\Controller\CargarCssYJsController::index'
+      _title: Cargar archivos css y js en el modulo
+  requirements:
+      _permission: access content

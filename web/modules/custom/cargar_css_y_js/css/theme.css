@@ -1,0 +1,70 @@
+.dotless {
+	list-style: none;
+}
+
+.page-title {
+	text-align: center;
+	margin: 2rem;
+}
+
+.dropdown-container {
+	max-width: 800px;
+	min-width: 300px;
+	margin: 1rem auto;
+	border: 1px solid #ccc;
+	background-color: white;
+	color: #888;
+	overflow: hidden;
+}
+
+.dropdown-container {
+	background-color: white;
+}
+
+.dropdown-container header {
+	cursor: pointer;
+	font-size: 0.6rem;
+	padding: 1rem;
+	background-color: mediumspringgreen;
+	color: white;
+	transition: background-color 350ms ease-in-out;
+}
+
+.dropdown-container.open header {
+	background-color: springgreen;
+}
+
+.dropdown-container h1 {
+	float: left;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+.dropdown-container .expand {
+	float: right;
+	transform: rotate(45deg);
+	font-size: 1.8em;
+	transition: transform 350ms ease-in-out;
+}
+
+.dropdown-container.open .expand{
+	transform: rotate(0);
+}
+
+
+.dropdown-container article {
+	max-height: 0px;
+	overflow: hidden;
+	line-height: 1.6;
+	transition: max-height 350ms ease-in-out;
+}
+
+/* padding can't be on article element because it won't collapse properly, add wrapper around contents */
+.dropdown-container .article-inner {
+	padding: 1rem;
+}
+
+
+figure.expand{
+    margin: 0em 40px;
+}
