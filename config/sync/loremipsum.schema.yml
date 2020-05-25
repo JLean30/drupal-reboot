@@ -1,0 +1,22 @@
+'loremipsum settings':
+  type: config_object
+  label: 'Lorem Ipsum settings'
+  mapping:
+    loremipsum:
+      type: mapping
+      mapping:
+        page_title:
+          type: text
+          label: 'Lorem ipsum generator page title:'
+        source_text:
+          type: text
+          label: 'Source text for lorem ipsum generation:'
+'block settings loremipsum_block':
+  type: block_settings
+  label: 'Lorem ipsum block'
+  mapping:
+    loremipsum_block_settings:
+      type: text
+      label: 'Lorem ipsum block settings'
+_core:
+  default_config_hash: r6_A9WeOpMxpoXmt2IgJUGGsSYz672b9HRCJt09bEoo
