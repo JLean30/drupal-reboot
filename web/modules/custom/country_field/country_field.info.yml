@@ -1,0 +1,5 @@
+name: Country Field
+type: module
+description: "Country field"
+package: Custom
+core: 8.x

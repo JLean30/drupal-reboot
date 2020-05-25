@@ -15,7 +15,7 @@ $port = 3306;
 if (empty(getenv('DDEV_PHP_VERSION') && getenv('IS_DDEV_PROJECT') == 'true')) {
   $host = "127.0.0.1";
   $port = 32768;
-} 
+}
 
 $databases['default']['default'] = array(
   'database' => "db",
