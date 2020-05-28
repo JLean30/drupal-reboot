@@ -1,0 +1,53 @@
+uuid: 1f4cbdf7-f4b1-490e-b1fa-2469056b2e7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.author_libro.field_imagen_autor
+    - taxonomy.vocabulary.author_libro
+  module:
+    - media_library
+    - path
+    - text
+id: taxonomy_term.author_libro.default
+targetEntityType: taxonomy_term
+bundle: author_libro
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+  field_imagen_autor:
+    type: media_library_widget
+    weight: 2
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 4
+    region: content
+    third_party_settings: {  }
+hidden: {  }

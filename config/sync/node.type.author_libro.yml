@@ -1,0 +1,18 @@
+uuid: fa055e24-2f20-41e0-bfa9-4f9739105e8a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'author libro'
+type: author_libro
+description: 'este es el author del libro'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

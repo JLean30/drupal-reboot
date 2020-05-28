@@ -1,0 +1,27 @@
+uuid: 5ffff63a-21f8-4d8f-8735-10b2a4cb63df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.author_libro
+  module:
+    - text
+id: node.author_libro.body
+field_name: body
+entity_type: node
+bundle: author_libro
+label: Descripcion
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    summary: ''
+    value: "<p>Lorem ipsum</p>\r\n"
+    format: basic_html
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

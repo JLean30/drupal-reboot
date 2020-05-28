@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "b5ffbef0-41ff-4e93-ad6b-22e7dde975c5"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/1"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/libros-comedia"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

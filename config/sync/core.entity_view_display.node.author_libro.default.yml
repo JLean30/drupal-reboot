@@ -1,0 +1,28 @@
+uuid: 6008c139-2bc3-4372-9c54-5ed29295c4c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.author_libro.body
+    - node.type.author_libro
+  module:
+    - text
+    - user
+id: node.author_libro.default
+targetEntityType: node
+bundle: author_libro
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

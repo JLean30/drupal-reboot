@@ -1,0 +1,8 @@
+uuid: a6cc7d79-9732-4a5c-ba60-87a900d556d1
+langcode: en
+status: true
+dependencies: {  }
+name: 'author libro'
+vid: author_libro
+description: 'autor del libro'
+weight: 0

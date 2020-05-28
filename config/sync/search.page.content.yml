@@ -1,0 +1,13 @@
+uuid: 8c265cac-2cf8-497b-afc5-3df82f99d269
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+id: content
+label: Content
+path: libros
+weight: 0
+plugin: node_search
+configuration:
+  rankings: {  }

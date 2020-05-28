@@ -1,0 +1,34 @@
+uuid: 68a36c93-1c9f-45dd-b34b-9e0b3a0e08fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.libros_categoria_filtro
+  module:
+    - user
+    - views
+  theme:
+    - bartik
+id: views_block__libros_categoria_filtro_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:libros_categoria_filtro-block_1'
+settings:
+  id: 'views_block:libros_categoria_filtro-block_1'
+  label: 'Categoria de libros'
+  provider: views
+  label_display: visible
+  views_label: 'Categoria de libros'
+  items_per_page: none
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

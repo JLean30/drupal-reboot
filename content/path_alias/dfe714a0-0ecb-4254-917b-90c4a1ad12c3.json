@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "dfe714a0-0ecb-4254-917b-90c4a1ad12c3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/3"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/libros-fantasia"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

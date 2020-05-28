@@ -1,0 +1,8 @@
+uuid: 4d3f6a84-173f-4713-8f3c-e1f9802a0b43
+langcode: en
+status: true
+dependencies: {  }
+name: categoria_libros
+vid: categoria_libros
+description: 'Categoria de libros'
+weight: 0

@@ -1,0 +1,28 @@
+uuid: b817655e-df32-48fa-b0c1-393c5f83c93c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_imagen_autor
+    - media.type.image
+    - taxonomy.vocabulary.author_libro
+id: taxonomy_term.author_libro.field_imagen_autor
+field_name: field_imagen_autor
+entity_type: taxonomy_term
+bundle: author_libro
+label: 'imagen autor'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

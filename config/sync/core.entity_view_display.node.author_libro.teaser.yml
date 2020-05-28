@@ -1,0 +1,30 @@
+uuid: ff6e0a67-1e14-472c-b488-060360994987
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.author_libro.body
+    - node.type.author_libro
+  module:
+    - text
+    - user
+id: node.author_libro.teaser
+targetEntityType: node
+bundle: author_libro
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "a463cf93-d03e-4933-8a14-2ed2384d420a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/2"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/libros-drama"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}
