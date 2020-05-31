@@ -1,0 +1,17 @@
+marca_favorita.marca_favorita_controller:
+    path: "/marca-favorita"
+    defaults:
+        _controller: '\Drupal\marca_favorita\Controller\MarcaFavoritaController::index'
+        _title: "Marca favorita"
+    requirements:
+        _permission: "access content"
+
+marca_favorita.configuration_form:
+    path: "/admin/config/marca_favorita/configuration"
+    defaults:
+        _form: '\Drupal\marca_favorita\Form\ConfigurationForm'
+        _title: "Formulario de configuracion"
+    requirements:
+        _permission: "access marca_favorita configuration"
+    options:
+        _admin_route: true

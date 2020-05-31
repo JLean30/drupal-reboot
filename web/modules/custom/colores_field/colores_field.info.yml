@@ -1,0 +1,5 @@
+name: Colores Field
+type: module
+description: "Colores field"
+package: Custom
+core: 8.x

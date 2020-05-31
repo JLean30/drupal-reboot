@@ -1,0 +1,17 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hool_help()
+ */
+
+function colores_field_help($route_name, RouteMatchInterface $route_match){
+    switch($route_name){
+        case 'help.page.colores':
+            return t('
+                <h3>Colores Help</h3>
+                <p>Colores field</p>
+            ');
+    }
+}

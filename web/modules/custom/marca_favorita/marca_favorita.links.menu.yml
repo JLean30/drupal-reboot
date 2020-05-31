@@ -1,0 +1,6 @@
+marca_favorita:
+    title: "Agregar Marca favorita"
+    route_name: marca_favorita.configuration_form
+    description: "Configuracion del módulo marca favorita"
+    parent: system.admin_config_system
+    weight: 99

@@ -1,0 +1,38 @@
+marca_favorita_js_and_css:
+  version: 1.x
+  css:
+    base:
+      css/base.css: {}
+    component:
+      css/component.css: {}
+    state:
+      css/state.css: {}
+    layout:
+      css/layout.css: {}
+    theme:
+      css/theme.css: {}
+  js:
+      js/main.js: {}
+  dependecies:
+      - core/jquery
+axios:
+    remote: https://www.npmjs.com/package/axios
+    version: 0.19.2
+    license:
+        name: MIT
+        url: https://github.com/axios/axios/blob/HEAD/LICENSE
+        gpl-compatible: true
+    js:
+        https://unpkg.com/axios/dist/axios.min.js:
+            { type: external, minified: true }
+
+fontawesome:
+    remote: https://cdnjs.com/libraries/font-awesome
+    version: 5.13.0
+    license:
+        name: MIT
+        url: https://fontawesome.com/license/free
+        gpl-compatible: true
+    js:
+        https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js:
+            { type: external, minified: true }

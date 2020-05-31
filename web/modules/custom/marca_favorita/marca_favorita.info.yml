@@ -1,0 +1,5 @@
+name: Marca Favorita
+type: module
+description: "Marca favorita Modulo"
+package: Custom
+core: 8.x

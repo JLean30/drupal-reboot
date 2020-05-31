@@ -1,0 +1,14 @@
+.marca-container{
+  display: block;
+  margin: auto;
+}
+
+.marca-container h3{
+  color: crimson;
+  font-weight: bolder;
+}
+
+.marca-container p{
+  font-weight: 300;
+  font-style: italic;
+}
